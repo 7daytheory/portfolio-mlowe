@@ -1,0 +1,27 @@
+nav {
+  width: 100%;
+  text-align: right;
+  position: relative;
+}
+
+nav ul {
+  margin: 5px 0px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #CCC;
+  font-size: 0.55em;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #fff;
+  transition-duration: 1s;
+}

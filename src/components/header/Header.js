@@ -2,7 +2,14 @@ import './Header.css';
 
 function Header() {
   return (
-    <h1>This is the Header for the website</h1>
+    <nav class='navigation'>
+      <ul>
+        <li><a href='projects'>Projects</a></li>
+        <li><a href='resume'>Resume</a></li>
+        <li><a href='about'>About</a></li>
+        <li><a href='contact'>Contact</a></li>
+      </ul>
+    </nav>
   );
 }
 
