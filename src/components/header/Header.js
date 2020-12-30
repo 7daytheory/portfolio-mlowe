@@ -18,11 +18,4 @@ function Header() {
     )
 }
 
-const name = document.querySelector('#name');
-const title = document.querySelector('#title');
-
-window.addEventListener('load', () => {
-  console.log('Header Loaded!');
-})
-
 export default Header;
